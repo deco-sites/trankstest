@@ -21,6 +21,13 @@ export default defineApp(async (_req, ctx) => {
         {/* Enable View Transitions API */}
         <meta name="view-transition" content="same-origin" />
 
+        <script
+          data-apikey="bazarhorizonte"
+          async
+          defer
+          src="//suite.linximpulse.net/impulse/impulse.js"
+        />
+
         {/* Tailwind v3 CSS file */}
         <link
           href={asset(`/styles.css?revision=${revision}`)}
